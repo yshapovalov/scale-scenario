@@ -6,7 +6,7 @@
             name: "m1.nano"
         image:
             name: "TestVM"
-        volume_size: 2
+        size: 2
         block_migration: True
       runner:
         type: "constant"
