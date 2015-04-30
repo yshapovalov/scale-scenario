@@ -7,7 +7,6 @@
         image:
             name: "TestVM"
         volume_size: 2
-        block_migration: True
       runner:
         type: "constant"
         times: {{ compute }}
