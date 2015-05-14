@@ -13,12 +13,14 @@ execution:
     title: Iperf TCP
     class: iperf_graph
     time: 60
+    buffer_size: 1k
   -
     title: Iperf UDP
     class: iperf
     udp: 1
     threads: 8
     bandwidth: 1000M
+    buffer_size: 1k
   -
     title: TCP download
     class: netperf_wrapper

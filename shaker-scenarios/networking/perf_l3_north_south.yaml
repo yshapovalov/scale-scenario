@@ -12,6 +12,7 @@ execution:
   -
     title: Iperf TCP
     class: iperf_graph
+    buffer_size: 1k
     sla:
     - "[type == 'agent'] >> (stats.bandwidth.min > 1000)"
     - "[type == 'agent'] >> (stats.bandwidth.mean > 2000)"
@@ -20,6 +21,7 @@ execution:
     class: iperf_graph
     udp: 1
     bandwidth: 1000M
+    buffer_size: 1k
     sla:
     - "[type == 'agent'] >> (stats.bandwidth.min > 1000)"
     - "[type == 'agent'] >> (stats.bandwidth.mean > 2000)"
