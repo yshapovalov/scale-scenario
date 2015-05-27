@@ -6,7 +6,7 @@
         rules_per_security_group: 25
       runner:
         type: "constant"
-        times: {{ 10 * compute }}
+        times: {{ vlan_amount if (not gre_enabled and compute * 10 > vlan_amount) else compute * 10 }}
         concurrency: {{ concurrency }}
       context:
         users:
