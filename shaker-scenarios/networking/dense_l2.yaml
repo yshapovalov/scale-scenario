@@ -8,20 +8,20 @@ deployment:
   vm_accommodation: [pair, double_room, density: 8, compute_nodes: 1]
 
 execution:
-  size: 'linear_progression'
+  progression: quadratic
   tests:
   -
     title: Iperf TCP
     class: iperf_graph
     time: 60
-    buffer_size: 1k
+    buffer_size: 8k
   -
     title: Iperf UDP
     class: iperf
     udp: 1
-    threads: 8
+    threads: 4
     bandwidth: 1000M
-    buffer_size: 1k
+    buffer_size: 1450
   -
     title: TCP download
     class: netperf_wrapper
