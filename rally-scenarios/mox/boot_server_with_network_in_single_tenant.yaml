@@ -8,7 +8,7 @@
             name: "TestVM"
       runner:
         type: "constant"
-        times: {{ compute * 8 * 11 }}
+        times: {{ compute * 8 * 5 }}
         concurrency: {{ concurrency }}
       context:
         users:
