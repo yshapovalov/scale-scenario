@@ -11,15 +11,9 @@ execution:
   progression: quadratic
   tests:
   -
-    title: Iperf TCP
-    class: iperf_graph
-    time: 60
-    buffer_size: 8k
-  -
-    title: TCP download
-    class: netperf_wrapper
-    method: tcp_download
-  -
-    title: TCP bi-directional
-    class: netperf_wrapper
-    method: tcp_bidirectional
+    title: Iperf UDP
+    class: iperf
+    udp: 1
+    threads: 4
+    bandwidth: 1000M
+    buffer_size: 1450

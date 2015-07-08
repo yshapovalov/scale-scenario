@@ -16,13 +16,6 @@ execution:
     time: 60
     buffer_size: 8k
   -
-    title: Iperf UDP
-    class: iperf
-    udp: 1
-    threads: 4
-    bandwidth: 1000M
-    buffer_size: 1450
-  -
     title: TCP download
     class: netperf_wrapper
     method: tcp_download
