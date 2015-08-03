@@ -9,7 +9,7 @@
         concurrency: {{ concurrency }}
       context:
         users:
-          tenants: 1
+          tenants: 4
           users_per_tenant: 1
       sla:
         failure_rate:
