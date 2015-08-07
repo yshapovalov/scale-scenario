@@ -16,9 +16,9 @@ execution:
     buffer_size: 8k
   -
     title: TCP download
-    class: netperf_wrapper
+    class: flent
     method: tcp_download
   -
     title: TCP bi-directional
-    class: netperf_wrapper
+    class: flent
     method: tcp_bidirectional
