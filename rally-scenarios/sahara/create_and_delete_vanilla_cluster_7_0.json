@@ -45,7 +45,9 @@
                         "security_group_rule": -1
                     }
                 },
-                "network": {}
+                "network": {
+                  "start_cidr": "101.1.0.0/21"
+                    }
             },
             "sla": {"failure_rate": {"max": 0}}
         }
