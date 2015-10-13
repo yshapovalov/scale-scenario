@@ -14,7 +14,7 @@
         concurrency: {{ concurrency }}
       context:
         users:
-          tenants: {{ [floating_ip_amount, vlan_amount, compute * 20] | sort | first }}
+          tenants: {{ [floating_ip_amount - 5, vlan_amount, compute * 20] | sort | first }}
           users_per_tenant: 3
         quotas:
           nova:
