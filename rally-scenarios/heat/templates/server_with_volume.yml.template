@@ -7,7 +7,7 @@ parameters:
     default: TestVM
   flavor:
     type: string
-    default: m1.tiny
+    default: m1.nano
   availability_zone:
     type: string
     description: The Availability Zone to launch the instance.
