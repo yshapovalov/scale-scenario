@@ -4,7 +4,6 @@ parameters:
   # set all correct defaults for parameters before launch test
   public_net:
     type: string
-    default: net04_ext
   image:
     type: string
     default: TestVM
