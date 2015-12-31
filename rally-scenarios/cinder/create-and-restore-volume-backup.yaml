@@ -17,6 +17,10 @@
             volumes: -1
             gigabytes: -1
             snapshots: -1
+        api_versions:
+          cinder:
+            version: 2
+            service_name: cinderv2
       sla:
         failure_rate:
           max: 0

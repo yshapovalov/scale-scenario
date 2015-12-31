@@ -25,6 +25,10 @@
           flavor:
             name: "m1.tiny"
           servers_per_tenant: 1
+        api_versions:
+          cinder:
+            version: 2
+            service_name: cinderv2
       sla:
         failure_rate:
           max: 0
