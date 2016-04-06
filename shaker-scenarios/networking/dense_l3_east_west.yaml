@@ -4,7 +4,7 @@ description:
 
 deployment:
   template: l3_east_west.hot
-  vm_accommodation: [pair, double_room, density: 8, compute_nodes: 1]
+  accommodation: [pair, double_room, density: 8, compute_nodes: 1]
 
 execution:
   progression: quadratic

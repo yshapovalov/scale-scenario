@@ -5,7 +5,7 @@ description:
 
 deployment:
   template: l3_north_south.hot
-  vm_accommodation: [pair, single_room, compute_nodes: 2]
+  accommodation: [pair, single_room, compute_nodes: 2]
 
 execution:
   tests:
