@@ -3,8 +3,8 @@
         {
             "runner": {
                 "type": "rps",
-                "times": 240000,
-                "rps": 400
+                "times": 120000,
+                "rps": 180
             },
             "context": {
                 "users": {
