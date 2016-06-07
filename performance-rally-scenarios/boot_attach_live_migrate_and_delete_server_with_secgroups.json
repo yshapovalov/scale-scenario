@@ -15,7 +15,7 @@
                 "boot_server_kwargs": { "auto_assign_nic" : true },
                 "create_volume_kwargs": {},
                 "volume_size": 1,
-                "disk_over_commit": 0,
+                "disk_over_commit": false,
                 "min_sleep": 0,
                 "max_sleep": 0,
                 "block_migration": false,
