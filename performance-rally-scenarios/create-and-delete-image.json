@@ -3,7 +3,7 @@
     "GlanceImages.create_and_delete_image": [
         {
             "args": {
-                "image_location": "http://{{http_server_with_images}}/images/glance_1g_image.raw",
+                "image_location": "http://{{http_server_with_glance_images}}/images/glance_1g_image.raw",
                 "container_format": "bare",
                 "disk_format": "raw"
             },
