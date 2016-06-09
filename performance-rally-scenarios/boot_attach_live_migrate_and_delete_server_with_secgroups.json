@@ -24,7 +24,7 @@
             },
             "runner": {
                 "type": "constant",
-                "times": {{ 5 * compute }},
+                "times": {{ 2 * compute }},
                 "concurrency": {{concurrency}}
             },
             "context": {
