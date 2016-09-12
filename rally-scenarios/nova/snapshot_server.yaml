@@ -6,6 +6,7 @@
             name: "m1.nano"
         image:
             name: "TestVM"
+        auto_assign_nic: True
       runner:
         type: "constant"
         times: {{ compute * 12 }}

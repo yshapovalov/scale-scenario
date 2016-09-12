@@ -8,6 +8,7 @@
           nested_level:
               min: 2
               max: 3
+          auto_assign_nic: True
       runner:
         type: "constant"
         times: {{ compute * 4 }}
@@ -34,4 +35,3 @@
       sla:
         failure_rate:
           max: 0
-

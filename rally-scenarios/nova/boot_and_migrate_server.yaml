@@ -10,6 +10,7 @@
         type: "constant"
         times: {{ compute }}
         concurrency: {{ concurrency }}
+        auto_assign_nic: True
       context:
         users:
           tenants: 2

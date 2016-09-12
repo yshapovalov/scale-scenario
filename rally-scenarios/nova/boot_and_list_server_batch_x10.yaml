@@ -8,6 +8,7 @@
             name: "TestVM"
         detailed: True
         min_count: 10
+        auto_assign_nic: True
       runner:
         type: "constant"
         times: {{ compute * 2 }}

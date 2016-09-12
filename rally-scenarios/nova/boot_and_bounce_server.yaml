@@ -15,6 +15,7 @@
             stop_start: 1
           -
             rescue_unrescue: 1
+        auto_assign_nic: True
       runner:
         type: "constant"
         times: {{ compute }}
